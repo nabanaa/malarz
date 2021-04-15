@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>malarz</title>
+    <link rel="stylesheet" href="styl.css">
+
+</head>
+
+<body>
+    <div class="baner">
+        <h1><a href="index.html">Koszty farby</a></h1>
+    </div>
+    <div class=" lewy">
+        <h3>Mieszamy czy wyceniamy?</h3>
+        <a href="mieszamy.html">Mieszamy</a> <br>
+        <a href="cena.html">Wyceniamy</a>
+    </div>
+    <div class="prawy">
+        <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbe</h3>
+
+        <label for="price">Podaj powierzchnie:</label>
+        <input type="number" id="powierzchnia"><br>
+        <button onclick="policz()">Policz</button>
+        <p id="wynik"></p>
+    </div>
+    <div class="stopka">
+        <p>MALARZ</p>
+        <p>Strone opracował:00000000000</p>
+    </div>
+
+    <script src="skrypt.js"></script>
+</body>
+
+</html>

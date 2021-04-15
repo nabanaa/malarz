@@ -1,0 +1,5 @@
+SELECT `cena` FROM `farby` WHERE `kolor` like 'niebieski'
+
+SELECT `kolor` , `cena`/`pojemnosc` FROM `farby`
+
+SELECT `kolor` FROM `farby`, `malowanie` WHERE farby.id_farby = malowanie.id_farby and id_pomieszczenia = 3
